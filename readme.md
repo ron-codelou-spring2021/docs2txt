@@ -27,10 +27,12 @@ It is designed to run in silent mode, on windows, driven be a C++ program that e
 
 You have 2 options:
 
-1 - On Mac or windows, Load into python and run, which will allow you enter the file name to parese, testFile.pdf
+1 - On Mac or windows, Load into python and run, which will allow you enter the file name to parse, testFile.pdf
 
 2 - Create a windows .exe
+
     in the terminal type:    pyinstaller docs2txt.py
+
     run docs2Txt.exe from the dist folder
 
 
@@ -38,7 +40,7 @@ You have 2 options:
 1) At least 3 functions called -> docs2Txt has 4 functions
 2) Analyze text and display information -> docs2Txt accepts, input from user, input from document source 
     and generates list of unique words
-3) Analyze text and display information  -> docs2Txt scraps the words from 3 different typs of documents and outputs a 
+3) Analyze text and display information  -> docs2Txt scraps the words from 3 different types of documents and outputs a 
     list of unique words in each
-4) Implement a “scraper”  -> docs2Txt scraps the words from 3 different typs of documents and outputs a list of unique words in each
+4) Implement a “scraper”  -> docs2Txt scraps the words from 3 different types of documents and outputs a list of unique words in each
 
