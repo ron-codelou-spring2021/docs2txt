@@ -35,6 +35,20 @@ You have 2 options:
 
     run docs2Txt.exe from the dist folder
 
+If you run it through python, enter the file to process, it requires the full path.  If you use test.pdf, the unique words will be written to an text file replacing the extension with _words.txt as the file name on the same folder, ie test_words.txt . 
+
+If you run the .exe on windows open windows command window
+
+cd to the \CodeLouisville_2021\docs2txt\dist\docs2txt folder
+
+enter
+
+docs2txt.exe followed by the file to process with the full path, the output will be in the source folder.
+
+
+
+
+
 
 # Class requirements met
 1) At least 3 functions called -> docs2Txt has 4 functions
