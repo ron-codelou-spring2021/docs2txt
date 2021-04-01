@@ -1,6 +1,6 @@
-#Code Louisville Python project spring 2021
+# Code Louisville Python project spring 2021
 
-##GOAL
+## GOAL
 
 Create python exe program that can run on windows and extract text from a selected document passed via the first command argument.
 This program will extract a unique word list from any .doc, .docx or pdf file and save a list of unique list of words to a ??_words.txt file where ?? is the name of the original document.
@@ -8,7 +8,7 @@ This program will extract a unique word list from any .doc, .docx or pdf file an
 I have included the test.doc,test.docx and test.pdf for testing
 
 
-##Required to build:
+## Required to build:
 
 pip install docx2txt
 
@@ -23,7 +23,7 @@ pip install pyinstaller  -> Optional - creates EXE for windows
 
 It is designed to run in silent mode, on windows, driven be a C++ program that executes the EXE with the arguement of the file to extract a unique word list.  Once the word list is created the C++ program builds a table cross-referrencing words and docuements, to be able to find all documents with a given combination of words
 
-#How to run this program
+# How to run this program
 
 You have 2 options:
 
@@ -34,7 +34,7 @@ You have 2 options:
     run docs2Txt.exe from the dist folder
 
 
-#Class requirements met
+# Class requirements met
 1) At least 3 functions called -> docs2Txt has 4 functions
 2) Analyze text and display information -> docs2Txt accepts, input from user, input from document source 
     and generates list of unique words
